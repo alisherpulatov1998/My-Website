@@ -1,0 +1,179 @@
+/*********************** Tag Selectors ***************************/
+
+body {
+    background-color: #ebeded;
+    color: #40514E;
+    margin: 0;
+    text-align: center;
+    font-family: font-family: 'Merriweather', serif;
+}
+
+h1 {
+    color: #66BFBF;
+    font-size: 5.62rem;
+/*    line-height: 2;    doubles space top and bottom of items */
+    font-family: 'Sacramento', cursive;
+    margin: 50px auto 0 auto;      /* or 0 for u and down, auto for right and left like: margin: 0, auto;      */
+}
+
+h2 {
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+
+h3 {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+
+hr{
+    border: dotted green 6px;
+    width: 4%;
+    border-bottom: none;
+    margin: 100px auto;
+}
+
+a {
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    color: #11999E;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #EAF6F6;
+}
+
+p {
+    line-height: 2;
+}
+
+/*********************** Class Selectors ***************************/
+
+/************** Top Container *************/
+.top-container {
+    background-color: #EAF6F6;
+    position: relative;
+    padding-top: 100px;
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+.bottom_cloud {
+    position: absolute;
+    left: 26%;
+    bottom: 300px;
+}
+
+.top_cloud {
+    position: absolute;
+    right: 26%;
+    top: 40px;
+
+}
+
+
+
+
+/************* Mid Container ************/
+.mid-container {
+
+    margin: 100px 0;
+
+}
+
+.intro {
+    margin: 50px auto;
+    color: #40514E;
+    width: 30%;
+}
+
+.btn {
+    padding: 20px;
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+}
+
+.coder-pic-photo {
+    width: 20%;
+    float: left;
+    margin: 0 50px 20px 0;
+}
+
+.computer-photo {
+    width: 20%;
+    float: right;
+    margin: 0 0 0 50px;
+}
+
+.my-photo {
+    width: 15%;
+
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+/*
+.python-description {
+    clear: left;
+}
+
+.web-description {
+    clear: right;
+}
+
+use "clear" to clean any sides of items...
+*/
+
+.suggestion-text {
+    width: 30%;
+    margin: 2.5rem auto 3.5rem;
+}
+
+
+
+/************* Bottom Container ************/
+.bottom-container {
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+
+    margin:4rem 0 0 0;;
+}
+
+.final-year-name {
+    font-size: 1.1rem;
+    padding: 20px 0;
+    color: #EAF6F6;
+}
